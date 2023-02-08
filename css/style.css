@@ -6,6 +6,9 @@
     font-family: 'Open Sans', sans-serif;
 
 }
+.bx{
+    color: #fff !important;
+}
 html,body{
     height: 100%;
 }
