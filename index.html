@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./css/style.css'>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link rel="shortcut icon" href="./img/android-icon-48x48-1.png" type="image/x-icon">
+    <title>Volunteer Forces</title>
+</head>
+    <body>
+
+    <div class="gofund">
+
+            <div class="go_logo">
+                <img class="go_img" src="./img/gofound.png" alt="" srcset="">
+            </div>
+            
+            <div class="go_text">
+                <div class="circle_logo">
+                    <img src="./img/circle_logo.jfif" alt="" srcset="">
+                </div>
+                <em>БФ «Добровольчих сил»</em> співпрацює із найбільшою благодійною краудфандинговою платформою <a href="https://www.gofundme.com/c/how-it-works" target="_blank" rel="noopener noreferrer">GoFundMe</a>, на строрінці якої ви можете ознайомитись з усіма пожертвуваннями у фонд та більш детально ознайомитись із програмою фонду.
+            </div>
+
+            <div class="donate" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&amp;sharetype=teams&amp;utm_campaign=p_na+share-sheet&amp;utm_medium=sms&amp;utm_source=customer')">
+                ПІДТРИМАТИ
+            </div>
+
+    </div>
+
+    <div class="menu">
+        <div class="menu_con">
+            <div class="menu_top">
+                <img src="./img/logo_white.svg" alt="" srcset="" class="logo">
+                <div class="middle">
+                    <div class="contact-item">
+                        <div class="icon_box">
+                            <i class='bx bx-envelope'></i>
+                        </div>
+                        <a href="mailto:info@volunteer-forces.com.ua">info@volunteer-forces.com.ua</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon_box">
+                            <i class='bx bx-phone'></i>
+                        </div>
+                        <a class="tel" href="tel:+380966322930"><em>+38 (096)</em> 632-29-30</a>
+                    </div>
+                </div>
+                <div class="langs">
+                    <div class="current_lang">
+                        <img src="./img/flags/ukraine.png" alt="" srcset="" class="flag">
+                        <div class="current_code">UA</div>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="langs_list" style="display: none;">
+                        <div class="langs_val">
+                            <img src="./img/flags/ukraine.png" alt="" srcset="" class="flag">
+                            <div class="current_code">Українська</div>
+                            <div class="country_code" style="display: none;">UA</div>
+                        </div>
+                        <div class="langs_val">
+                            <img src="./img/flags/united-kingdom.png" alt="" srcset="" class="flag">
+                            <div class="current_code">English</div>
+                            <div class="country_code" style="display: none;">EN</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_bot">
+                <div class="li">
+                    <div class="link_el link_active" onclick="scrollToTop()">
+                        Головна
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('about_sec')">
+                        Про нас
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('project_sec')">
+                        Програми допомоги
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('help_sec')">
+                        Ваша допомога
+                    </div>
+                </div>
+                <div class="menu_right">
+                    <!-- <i class='bx bxl-instagram-alt' onclick="window.open('')"></i> -->
+                    <img class="inst" src="./img/pngtree-instagram-icon-png-image_6315974.png" alt="" srcset="" onclick="window.open('https://www.instagram.com/volunteerforces/')">
+                    <i class='bx bxl-telegram' onclick="window.open('https://t.me/volunteerforcesua')"></i>
+                    <i class='bx bxl-twitter' onclick="window.open('https://twitter.com/volunteer_forua')"></i>
+                    <i class='bx bxl-youtube' onclick="window.open('https://www.youtube.com/channel/UCyn-RdoQUh9J7quCJ1lrPjw')"></i>
+
+                    <div class="btn_box">
+                        <div class="donate" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=sms&utm_source=customer')">
+                            ПОЖЕРТВУВАТИ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu_mobile" style="display: none;">
+            <img src="./img/logo_white.svg" alt="" srcset="" class="logo">
+            <div class="other">
+                <div class="donate mob_don" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&amp;sharetype=teams&amp;utm_campaign=p_na+share-sheet&amp;utm_medium=sms&amp;utm_source=customer')">
+                    ПОЖЕРТВУВАТИ
+                </div>
+                <div class="langs">
+                    <div class="current_lang">
+                        <img src="./img/flags/ukraine.png" alt="" srcset="" class="flag">
+                        <div class="current_code">UA</div>
+                        <i class='bx bx-chevron-down'></i>
+                    </div>
+                    <div class="langs_list" style="display: none;">
+                        <div class="langs_val">
+                            <img src="./img/flags/ukraine.png" alt="" srcset="" class="flag">
+                            <div class="current_code">Українська</div>
+                            <div class="country_code" style="display: none;">UA</div>
+                        </div>
+                        <div class="langs_val">
+                            <img src="./img/flags/united-kingdom.png" alt="" srcset="" class="flag">
+                            <div class="current_code">English</div>
+                            <div class="country_code" style="display: none;">EN</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>  
+            </div>
+            <div class="mobile_content">
+                <div class="li">
+                    <div class="link_el link_active" onclick="scrollToTop()">
+                        Головна
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('about_sec')">
+                        Про нас
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('project_sec')">
+                        Програми допомоги
+                    </div>
+                    <div class="link_el" onclick="scrollToElement('help_sec')">
+                        Ваша допомога
+                    </div>
+                    <div class="donate small_mobile" style="display: none;" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&amp;sharetype=teams&amp;utm_campaign=p_na+share-sheet&amp;utm_medium=sms&amp;utm_source=customer')">
+                        ПОЖЕРТВУВАТИ
+                    </div>
+                    <div class="menu_right ">
+                        <!-- <i class='bx bxl-instagram-alt' onclick="window.open('')"></i> -->
+                        <img class="inst" src="./img/pngtree-instagram-icon-png-image_6315974.png" alt="" srcset="" onclick="window.open('https://www.instagram.com/volunteerforces/')">
+                        <i class="bx bxl-telegram" onclick="window.open('https://t.me/volunteerforcesua')"></i>
+                        <i class="bx bxl-twitter" onclick="window.open('https://twitter.com/volunteer_forua')"></i>
+                        <i class="bx bxl-youtube" onclick="window.open('https://www.youtube.com/channel/UCyn-RdoQUh9J7quCJ1lrPjw')"></i>
+                    </div>
+
+                        <div class="contact-item">
+                            <div class="icon_box">
+                                <i class="bx bx-envelope"></i>
+                            </div>
+                            <a href="mailto:info@volunteer-forces.com.ua">info@volunteer-forces.com.ua</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon_box">
+                                <i class="bx bx-phone"></i>
+                            </div>
+                            <a class="tel" href="tel:+380966322930"><em>+38 (096)</em> 632-29-30</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <header>
+        <div class="head_container">
+            <h1 class="zag">Допожи Українцям разом з<br> <em>Благодійний Фонд «Добровольчих сил»</em></h1>
+            <p>Навіть невелике пожертвування - велика справа. </p>
+            <div class="head_mid">
+                Ознайомтесь з нашими програмами допомоги.
+            </div>
+            <div class="flex_center">
+                <button class="big_btn" onclick="scrollToElement('project_sec')">ПРОГРАМИ ДОПОМОГИ</button>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <div class="about_sec">
+            <div class="boxes">
+                <div class="boxes_content">
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <i class='bx bx-donate-heart' ></i>
+                        </div>
+                        <div class="box_text">
+                            Всі кошти від спонсорської допомоги йдуть на реалізацію благодійних проектів та допомогу людям. 
+                        </div>
+                    </div>
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <i class='bx bx-credit-card'></i>
+                        </div>
+                        <div class="box_text">
+                            Операційні та адміністративні витрати фонду сплачуються з особистих коштів керівництва фонду.
+                        </div>
+                    </div>
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <i class='bx bxs-report'></i>
+                        </div>
+                        <div class="box_text">
+                            Робота фонду максимально прозора і відкрита, ви можете ознайомитись зі звітами про витрати та надання допомоги.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_zag">Благодійний Фонд «Добровольчих сил»</div>
+            <div class="img_box">
+                <img class="team" src="./img/2cdb1147-fe22-42af-98c3-502d3de6cb83.jfif" alt="" srcset="">         
+            </div>
+            <div class="mini">
+                <div class="team_desc">
+                    <h1>Про нас</h1>
+                    <p>Фонд розпочав роботу на початку повномасштабної війни з Росією , щоб допомагати тим, хто втратив домівку та змушений був покинути її через окупацію чи розгортання бойових дій. У вересні ми відкрили штаб, в якому 2 рази на тиждень відбувається організація гуманітарної допомоги для переселенців, які знайшли присток у м. Кривий Ріг.</p>
+                </div>
+                <div class="bg_box"></div>
+                <div class="small_box_text">
+                    Саме в штабі отримали допомогу вже понад 4000 осіб. Вимушено переміщені українці мали змогу отримати речі першої необхідності від фонду, міжнародних партнерів та небайдужих українців.
+<br><br>
+Переселенці дуже потребують допомоги, адже російська війна забрала в них все – дім та безтурботне життя. БФ «Добровольчих сил» робить все можливе, щоб допомогти постраждалим українцям, які на власному досвіді відчули гіркі наслідки війни.
+<br><br>
+Тисячі українців втратили своє спокійне життя і домівки через війну. І наш фонд «Добровольчих сил» хоче допомогти кожному в такій важкій ситуації.
+<br><br>
+Ми віримо, що наша діяльність матиме великі досягнення і ми зможемо допомогати ще більшій кількості людей!
+
+Долучайтесь до добрих справ «Добровольчих сил», давайте робити добро разом!
+<br><br>
+<strong>Приєднуйтеся до нашої боротьби за свободу, підтримуйте наші проєкти!</strong>                
+</div>
+            </div>
+        </div>
+
+        <div class="project_sec">
+            <div class="main_zag">Благодійні програми фонду</div>
+            <div class="boxes_project">
+                <div class="boxes_content">
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <img src="./img//child.png" alt="" srcset="">
+                        </div>
+                        <div class="box_text">
+                            Пожертвування в розмірі <strong>5$</strong> забезпечить одну дитину водою на цілий тиждень.
+                        </div>
+                    </div>
+                    <div class="box_body">
+                        <div class="box_icon">
+                           <img src="./img/mother.png" alt="" srcset="">
+                        </div>
+                        <div class="box_text">
+                            Пожертвування в розмірі <strong>20$</strong> покриває вартість усіх необхідних засобів гігієни для мами з дитиною на 1 місяць.
+                        </div>
+                    </div>
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <img src="./img/food.png" alt="" srcset="">
+                        </div>
+                        <div class="box_text">
+                            Пожертвування в розмірі <strong>55$</strong> є достатнім для забезпечення однієї людини достатньою кількістю їжі та води на 1 місяць.
+                        </div>
+                    </div>
+                    <div class="box_body">
+                        <div class="box_icon">
+                            <img src="./img/family.png" alt="" srcset="">
+                        </div>
+                        <div class="box_text">
+                            Пожертвування в розмірі <strong>130$</strong> профінансує проживання однієї сім'ї з дитиною протягом 1 місяця.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects_row">
+                <div class="project_item">
+                    <img src="./img/military-1-1.png" alt="" srcset="">
+                    <div class="proj_con">
+                        <div class="proj_top">
+                            <div class="proj_title">Благодійна програма <br> <em>«Військова допомога»</em></div>
+                            <div class="project_desc">
+                                Основною метою Благодійної програми є надання допомоги Збройним Силам
+        України, в тому числі, Силам територіальної оборони Збройних Сил України,
+        добровольчим формуванням територіальних громад та іншим утвореним відповідно до
+        законів України військовим формуванням.
+                            </div>
+                        </div>
+                        <div class="donate" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=sms&utm_source=customer')">
+                            ПІДТРИМАТИ
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item">
+                    <img src="./img/food2.png" alt="" srcset="">
+                    <div class="proj_con">
+                        <div class="proj_top">
+                            <div class="proj_title">Благодійна програма <br> <em>«Цивільна допомога»</em></div>
+                            <div class="project_desc">
+                                Основною метою Благодійної програми є надання допомоги вимушеним
+    переселенцям, внутрішньо переміщеним особам, біженцям та будь-яким іншим особам,
+    які постраждали чи можуть постраждати внаслідок військової агресії Російської Федерації
+    проти України
+                            </div>
+                        </div>
+                        <div class="donate" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=sms&utm_source=customer')">
+                            ПІДТРИМАТИ
+                        </div>
+                    </div>
+                </div>
+                <div class="project_item">
+                    <img src="./img/ffffff.png" alt="" srcset="">
+                    <div class="proj_con">
+                        <div class="proj_top">
+                            <div class="proj_title">Благодійна програма <br> <em>«Інформаційна допомога»</em></div>
+                            <div class="project_desc">
+                                Основною метою Благодійної програми є надання допомоги Збройним Силам
+    України, військовим формуванням, органам державної влади та органам місцевого
+    самоврядування, юридичним особа в інформаційній сфері.
+                            </div>
+                        </div>
+                        <div class="donate" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=sms&utm_source=customer')">
+                            ПІДТРИМАТИ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="help_sec">
+            <div class="help_cont">
+                <div class="main_zag">Ваша допомога</div>
+                <div class="help_text">
+                    <em>БФ «Добровольчих сил»</em> забезпечує гуманітарною допомогою родини, які вимушено переміщені в Кривий Ріг. Щоб і надалі виконувати благодійну місію, ми потребуємо невідкладної допомоги у цьому. 
+
+Ваші донати – це можливість ще більше допомогти людям, які стали жертвами російської агресії. Будь-яка грошова підтримка важлива для українських переселенців, які залишилися без нічого.
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video src="./video/IMG_3979.MP4" controls height="400px"></video>
+                        </div>
+                        <div class="swiper-slide">
+                            <video src="./video/IMG_3978.MP4" controls height="400px"></video>
+                        </div>
+                    <div class="swiper-slide">
+                            <img src="./img/people/8d403c1b-a6ea-44b7-8743-4f1526cc9042.jfif" alt="" srcset="">
+                          </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/ff78a6be-d9c6-4c1e-a961-615dbd133052.jfif" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/2c50f778-295f-4824-b0fc-595e3f439c32.jfif" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/f62d866e-8b9e-4e64-8b2f-2c8503e308a5.jfif" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/319531607_3284620025201628_4673535006046806882_n.jpg" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/318122110_1567955043641845_4028609075475222082_n.jpg" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        '<img src="./img/people/314728974_1288614471708138_1848717469416868134_n.jpg" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/314907550_1137779656864508_4458470201535456190_n.jpg" alt="" srcset="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/people/327445492_1084209729647298_3782967905244532386_n.jpg" alt="" srcset="">
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer_top">
+            <div class="f_top">
+                <div class="f_text">
+                    <div class="f_big">Українцям потрібна ваша допомога</div>
+                    Будь-яка сумма надіслана вами допомогає врятувати життя людини
+                </div>
+                <div class="fot_btn_box">
+                    <button class="big_btn fot_btn" onclick="window.open('https://www.gofundme.com/f/help-our-foundation-support-struggling-families?member=24005653&sharetype=teams&utm_campaign=p_na+share-sheet&utm_medium=sms&utm_source=customer')">ПОЖЕРТВУВАТИ</button>
+                </div>
+                <img class="fot_logo" src="./img/logo_footer_land.svg" alt="" srcset="">
+            </div>
+            <div class="f_bot">
+                
+                <div class="links">
+                    <div class="a_row">
+                        <div class="a" onclick="scrollToTop()">Головна</div>
+                        <div class="a" onclick="scrollToElement('about_sec')">Про нас</div>
+                    </div>
+                    <div class="a_row">
+                        <div class="a" onclick="scrollToElement('project_sec')">Програми допомоги</div>
+                        <div class="a" onclick="scrollToElement('help_sec')">Ваша допомога</div>
+                    </div>
+                </div>
+
+                <div class="middle">
+                    <div class="contact-item">
+                        <div class="icon_box">
+                            <i class="bx bx-envelope"></i>
+                        </div>
+                        <a href="mailto:info@volunteer-forces.com.ua">info@volunteer-forces.com.ua</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon_box">
+                            <i class="bx bx-phone"></i>
+                        </div>
+                        <a class="tel" href="tel:+380966322930"><em>+38 (096)</em> 632-29-30</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_bot">
+            <div class="f_bot_cont">
+                © 2023 Volunteer forces. Всі права захищені
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src="./js/script.js"></script>
+    </body>
+</html>
